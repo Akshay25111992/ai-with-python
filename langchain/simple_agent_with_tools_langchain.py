@@ -29,8 +29,6 @@ from langchain_openai import ChatOpenAI
 # For standard OpenAI:
 #   os.environ["OPENAI_API_KEY"] = "your-key"
 #   model="gpt-4o-mini"
-# For Vocareum:
-#   set OPENAI_API_KEY and OPENAI_BASE_URL in the environment.
 #
 llm = ChatOpenAI(
     model=os.getenv("OPENAI_MODEL", "gpt-4o-mini"),
@@ -203,8 +201,6 @@ if __name__ == "__main__":
 
 
 #python -m pip install --upgrade aiohttp openai langchain-openai on terminal in case you get an error 
-#AttributeError: module aiohttp has no attribute SocketTimeoutError
-#python /voc/work/simple_agent_with_tools_V1.py - use path in case of error
 
 #result["messages"] contains 4 messages in a squence like below
 #1. HumanMessage  → User question
