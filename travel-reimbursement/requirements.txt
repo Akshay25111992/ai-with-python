@@ -1,0 +1,7 @@
+# Dependencies for akshay_solanki.ipynb
+python-dotenv
+pydantic
+matplotlib==3.11.2
+langchain>=1.0.0,<2.0.0
+langchain-openai>=1.0.0,<2.0.0
+ipykernel==7.4.0
